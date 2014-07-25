@@ -16,7 +16,7 @@ docker run \
 	bradleyboy/s3archive
 ```
 
-The above command will create a tar.gz of the `/folder/to/backup` directory on your host machine. It will then upload it to the `my-bucket` S3 bucket with the filename of today.tar.gz. You can also add a prefix to the filename if you want to store it it inside a folder on the bucket:
+The above command will create a tar.gz of the `/folder/to/backup` directory on your host machine. It will then upload it to the `my-bucket` S3 bucket with the filename of `today.tar.gz`. You can also add a prefix to the filename if you want to store it it inside a folder on the bucket:
 
 ```
 docker run \
